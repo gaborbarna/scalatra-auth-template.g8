@@ -13,7 +13,7 @@ object TestappBuild extends Build {
   val ScalatraVersion = "2.3.1"
 
   lazy val project = Project (
-    "$name",
+    "$name$",
     file("."),
     settings = ScalatraPlugin.scalatraWithJRebel ++ scalateSettings ++ Seq(
       organization := Organization,

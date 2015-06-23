@@ -1,10 +1,10 @@
 package $organization$.$name;format="lower,word"$.auth
 
 import org.scalatra.auth.{ScentryConfig, ScentrySupport}
-import $organization$.$name;format="lower,word".models.User
+import $organization$.$name;format="lower,word"$.models.User
 import org.scalatra.{ScalatraBase}
 import org.slf4j.LoggerFactory
-import $organization$.$name;format="lower,word".auth.strategies.{RememberMeStrategy, UserPasswordStrategy}
+import $organization$.$name;format="lower,word"$.auth.strategies.{RememberMeStrategy, UserPasswordStrategy}
 
 
 trait AuthenticationSupport extends ScalatraBase with ScentrySupport[User] {
