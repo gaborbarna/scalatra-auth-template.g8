@@ -7,7 +7,7 @@ import ScalateKeys._
 
 object TestappBuild extends Build {
   val Organization = "$organization$"
-  val Name = "$name$"
+  val Name = "$name;format="norm"$"
   val Version = "$version$"
   val ScalaVersion = "2.10.5"
   val ScalatraVersion = "2.3.1"
