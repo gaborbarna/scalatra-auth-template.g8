@@ -3,8 +3,8 @@
 ## Build & Run ##
 
 ```sh
-$ cd TestApp
-$ ./sbt
+\$ cd TestApp
+\$ ./sbt
 > container:start
 > browse
 ```
